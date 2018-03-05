@@ -24,3 +24,5 @@ print('I own',5+2,'dogs')
 print(3 + 9)
 print('3 + 9', 'versus', 3 + 9)
 print(5-1,'events happened this year')
+
+# I learned from this that print(value) is how you display words. 
