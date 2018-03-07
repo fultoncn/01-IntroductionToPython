@@ -29,11 +29,26 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ###############################################################################
 
 import rosegraphics as rg
-
 window = rg.TurtleWindow()
 
-blue_turtle = rg.SimpleTurtle('turtle')
-blue_turtle.pen = rg.Pen('midnight blue', 3)
-blue_turtle.speed = 20  # Fast
+bobby = rg.SimpleTurtle('turtle')
+bobby.pen = rg.Pen('red', 15)
+bobby.speed = 10
+
+bobby.forward(100)
+bobby.left(90)
+bobby.forward(100)
+bobby.left(90)
+bobby.forward(100)
+bobby.left(90)
+bobby.forward(100)
+
+
+window.close_on_mouse_click()
+
+
+
+
+
 
 
